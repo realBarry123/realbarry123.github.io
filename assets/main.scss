@@ -1,0 +1,24 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
+@import "tale";
+
+.catalogue-title { 
+    font-size: 16pt; 
+    font-weight: normal; 
+    font-family: "JetBrains Mono";
+}
+.catalogue-time, .catalogue-pinned  { font-size: 10pt; }
+
+.catalogue-description { font-size: 10pt; }
+
+.post-info { font-size: 11pt; }
+.post-title { 
+    font-size: 24pt; 
+    font-weight: normal; 
+    font-family: "JetBrains Mono";
+}
+
+p, body { font-size: 11pt; }

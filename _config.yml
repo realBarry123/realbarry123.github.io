@@ -8,7 +8,11 @@ linkedin_username: barry-yu-cs
 github_username:  realBarry123
 
 # Build settings
-theme: minima
+theme: tale
+
+permalink: /:year-:month-:day/:title
+paginate: 16
+
 plugins:
   - jekyll-feed
 
