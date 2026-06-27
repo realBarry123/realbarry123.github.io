@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll! Lorem Ipsum Really Long Title About Something Important Yes Quite Important"
 date:   2026-06-26 19:05:27 -0700
 categories: jekyll update
 description: A discussion
+tags: hi
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

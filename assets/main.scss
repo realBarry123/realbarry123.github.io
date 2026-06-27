@@ -5,20 +5,50 @@
 
 @import "tale";
 
+:root {
+    --body-font: Palatino, "Georgia", serif;
+    --title-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-title {
+    font-weight: normal;
+}
+
 .catalogue-title { 
     font-size: 16pt; 
     font-weight: normal; 
-    font-family: "JetBrains Mono";
 }
 .catalogue-time, .catalogue-pinned  { font-size: 10pt; }
-
 .catalogue-description { font-size: 10pt; }
 
-.post-info { font-size: 11pt; }
-.post-title { 
-    font-size: 24pt; 
-    font-weight: normal; 
-    font-family: "JetBrains Mono";
+.post-info, .post-title, .tags-header-title {
+    text-align: left;
 }
 
-p, body { font-size: 11pt; }
+.post-info { font-size: 11pt; }
+.post-title, .tags-header-title { 
+    font-size: 24pt; 
+    font-weight: normal; 
+}
+.tags {
+    padding: 3rem 0;
+    &-header-title { margin: 1rem 0; }
+    &-item-label { 
+        font-family: var(--title-font);
+        font-weight: normal;
+        font-size: 16pt;
+    }
+}
+.post-line, .tags-header-line { 
+    border-top-width: 0.24rem;
+    margin-left: 0;
+}
+
+[class$="-line"] {
+    border-radius: 0% 50% 50% 0%;
+}
+
+p, body { 
+    font-size: 11pt; 
+    font-family: var(--body-font);
+}
