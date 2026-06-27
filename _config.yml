@@ -8,13 +8,14 @@ linkedin_username: barry-yu-cs
 github_username:  realBarry123
 
 # Build settings
-theme: tale
+remote_theme: chesterhow/tale
 
 permalink: /:year-:month-:day/:title
 paginate: 16
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
